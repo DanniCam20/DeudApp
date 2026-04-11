@@ -1,0 +1,232 @@
+.menu-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+
+}
+
+.menu-btn:hover {
+    -fx-background-color: #556a41;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-border-color:  #b5c99a;
+    -fx-border-width: 0 0 0 6;
+}
+
+.menu-btn.active {
+    -fx-background-color: #556a41;
+    -fx-border-color:  #b5c99a;
+    -fx-border-width: 0 0 0 6;
+}
+
+.ApPersonas{
+    -fx-background-color:  White;
+}
+
+.HbTitulo{
+    -fx-background-color: #336699;
+}
+
+/** ESTILO DE LA TABA PERSONAS **/
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-padding: 10;
+    -fx-background-radius: 10;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 15, 0, 0, 5);
+}
+
+/** ESTILO DE COLUMNAS  TABLA PERSONAS **/
+
+.table-view .column-header {
+    -fx-background-color: #3d4670;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+/** ESTILO DE FILAS  **/
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: #e5e7eb;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+
+
+/** ESTILO DE HOVER EN LAS FILAS  **/
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: #e5e7eb;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+
+/** FILA SELECCIONADA **/
+
+.table-row-cell:selected {
+    -fx-background-color: #3b82f6;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: white;
+}
+
+/** ESTILO DEL FORMULARIO **/
+
+.Cont-Formulario {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-padding: 25;
+
+    /* Sombra 🔥 */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 15, 0, 0, 5);
+}
+
+
+
+/** BOTONES **/
+
+.botones{
+    -fx-background-color: #b5c99a;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+
+    /* sombra elegante */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 4);
+
+    /* transición suave visual */
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.botones:hover {
+    -fx-background-color: #b0d678;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.boton-limpiar{
+    -fx-background-color: #dfe3dd;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 10;
+
+
+    -fx-cursor: hand;
+
+    /* sombra elegante */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 4);
+
+    /* transición suave visual */
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.boton-limpiar:hover {
+    -fx-background-color: #d67c7c;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+
+/** INPUTS **/
+
+.input{
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+
+    -fx-padding: 10 12;
+    -fx-font-size: 14px;
+
+    /* sombra suave */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 5, 0, 0, 2);
+}
+
+.input:hover{
+
+    -fx-border-color: #74a88d;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+/** ESTILOS DE LOS LABELS  **/
+
+.label-form {
+    -fx-text-fill: #475569; /* gris elegante */
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+
+    -fx-padding: 0 0 6 3; /* espacio abajo */
+}
+
+.total-value {
+    -fx-font-family: Verdana;
+    -fx-font-weight: 700;
+    -fx-font-size: 30px;
+    -fx-margin: 0;
+}
+
+.labels-totales{
+    -fx-text-fill: #878b9e; /* gris elegante */
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+
+}
+
+/** CONTENEDORES PEQUEÑOS CON HOVER  **/
+
+.conte{
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-padding: 25;
+
+    /* Sombra 🔥 */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 15, 0, 0, 5);
+}
+.conte:hover {
+    -fx-border-color: #74a88d;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+/** Estilo de los Combobox **/
+
+.ComboBox{
+    -fx-padding:0;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #74a88d; /* gris elegante */
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-color: #74a88d;
+    -fx-color: #7b8a83;
+    -fx-background-color: #b5c99a;
+}
+.ComboBox:hover{
+    -fx-border-color: #6eb378;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+
+}
+
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/25"
+            xmlns:fx="http://javafx.com/fxml/1"
+            style="-fx-background-color: #F8FAF5;">
+
+   <children>
+
+      <VBox alignment="TOP_CENTER"
+            spacing="25"
+            AnchorPane.topAnchor="0"
+            AnchorPane.bottomAnchor="0"
+            AnchorPane.leftAnchor="0"
+            AnchorPane.rightAnchor="0">
+
+         <padding>
+            <Insets top="30" left="20" right="20" bottom="20"/>
+         </padding>
+
+         <children>
+
+            <!-- HEADER -->
+            <VBox alignment="CENTER" spacing="5">
+
+               <Text text="DeudApp"
+                     fill="#586644">
+                  <font>
+                     <Font name="Cambria Bold" size="42"/>
+                  </font>
+               </Text>
+
+               <Text text="Controla tus finanzas de forma inteligente"
+                     fill="#8A9A5B">
+                  <font>
+                     <Font name="System Italic" size="16"/>
+                  </font>
+               </Text>
+
+            </VBox>
+
+            <!-- IMAGEN -->
+            <ImageView fitHeight="250" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Multimedia/IconoInicio.png"/>
+               </image>
+            </ImageView>
+
+            <!-- DASHBOARD -->
+            <VBox spacing="15" alignment="CENTER">
+
+               <Text text="Resumen general"
+                     fill="#586644">
+                  <font>
+                     <Font name="System Bold" size="18"/>
+                  </font>
+               </Text>
+
+               <HBox spacing="20" alignment="CENTER">
+
+                  <!-- PERSONAS -->
+                  <VBox alignment="CENTER"
+                        spacing="8"
+                        prefWidth="130"
+                        style="-fx-background-color: white; -fx-background-radius: 20; -fx-padding: 15; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10,0,0,3);">
+
+                     <Label text="👥"/>
+                     <Label text="Personas"/>
+                     <Label fx:id="lblPersonas"
+                            text="0"
+                            style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+                  </VBox>
+
+                  <!-- DEUDA -->
+                  <VBox alignment="CENTER"
+                        spacing="8"
+                        prefWidth="130"
+                        style="-fx-background-color: #FFF7E6; -fx-background-radius: 20; -fx-padding: 15; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10,0,0,3);">
+
+                     <Label text="💰"/>
+                     <Label text="Deuda"/>
+                     <Label fx:id="lblDeuda"
+                            text="0"
+                            style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+                  </VBox>
+
+                  <!-- PAGADAS -->
+                  <VBox alignment="CENTER"
+                        spacing="8"
+                        prefWidth="130"
+                        style="-fx-background-color: #E8F5E9; -fx-background-radius: 20; -fx-padding: 15; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10,0,0,3);">
+
+                     <Label text="✅"/>
+                     <Label text="Pagadas"/>
+                     <Label fx:id="lblPagadas"
+                            text="0"
+                            style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #2E7D32;"/>
+
+                  </VBox>
+
+                  <!-- PENDIENTES -->
+                  <VBox alignment="CENTER"
+                        spacing="8"
+                        prefWidth="130"
+                        style="-fx-background-color: #FDECEA; -fx-background-radius: 20; -fx-padding: 15; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10,0,0,3);">
+
+                     <Label text="⚠️"/>
+                     <Label text="Pendientes"/>
+                     <Label fx:id="lblPendientes"
+                            text="0"
+                            style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #C62828;"/>
+
+                  </VBox>
+
+               </HBox>
+
+            </VBox>
+
+            <!-- FRASE -->
+            <Text text="💡 Tip: Mantén tus pagos al día para evitar problemas financieros"
+                  fill="#8A9A5B"
+                  textAlignment="CENTER"
+                  wrappingWidth="450">
+               <font>
+                  <Font name="System Italic" size="14"/>
+               </font>
+            </Text>
+
+         </children>
+      </VBox>
+
+   </children>
+</AnchorPane>

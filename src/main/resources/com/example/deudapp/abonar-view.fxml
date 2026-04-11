@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="673.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane layoutX="15.0" layoutY="78.0" prefHeight="574.0" prefWidth="791.0" styleClass="Cont-Formulario" AnchorPane.bottomAnchor="20.600000000000023" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="12.799999999999955" AnchorPane.topAnchor="77.80000000000007" />
+      <HBox fx:id="HbTitulo" alignment="CENTER_LEFT" prefHeight="82.0" prefWidth="819.0" spacing="30.0">
+         <children>
+            <ImageView fitHeight="60.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Multimedia/IconoAbonar.png" />
+               </image>
+            </ImageView>
+            <Text fill="#475569" strokeType="OUTSIDE" strokeWidth="0.0" text="Abonar Dinero" wrappingWidth="266.936767578125">
+               <font>
+                  <Font name="Cambria Bold" size="34.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+      <VBox layoutX="299.0" layoutY="74.0" prefHeight="108.0" prefWidth="819.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label styleClass="labels-totales" text="Seleccionar Persona:">
+               <VBox.margin>
+                  <Insets bottom="-20.0" left="40.0" top="25.0" />
+               </VBox.margin>
+            </Label>
+            <ComboBox prefHeight="35.0" prefWidth="305.0" promptText="Seleccionar" styleClass="ComboBox" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets left="35.0" top="30.0" />
+               </VBox.margin>
+            </ComboBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutY="191.0" prefHeight="108.0" prefWidth="819.0" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <StackPane alignment="TOP_LEFT" prefHeight="100.0" prefWidth="222.0" styleClass="conte" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+               <children>
+                  <Label styleClass="label-form" text="Deuda Total:">
+                     <StackPane.margin>
+                        <Insets left="40.0" />
+                     </StackPane.margin>
+                  </Label>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="total-value" text="Text">
+                     <StackPane.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </StackPane.margin>
+                  </Text>
+                  <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_LEFT">
+                     <image>
+                        <Image url="@../../../Multimedia/IconoDeudaTOTAL.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane alignment="TOP_LEFT" prefHeight="100.0" prefWidth="222.0" styleClass="conte" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label alignment="TOP_LEFT" styleClass="label-form" text="Pagado:">
+                     <StackPane.margin>
+                        <Insets left="40.0" />
+                     </StackPane.margin>
+                  </Label>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="total-value" text="Text" wrappingWidth="74.1064453125">
+                     <StackPane.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </StackPane.margin>
+                  </Text>
+                  <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Multimedia/IconoPagado.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane alignment="TOP_LEFT" prefHeight="100.0" prefWidth="222.0" styleClass="conte" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+               <children>
+                  <Label styleClass="label-form" text="Saldo Pendiente:">
+                     <StackPane.margin>
+                        <Insets left="40.0" />
+                     </StackPane.margin>
+                  </Label>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="total-value" text="Text">
+                     <StackPane.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </StackPane.margin>
+                  </Text>
+                  <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Multimedia/IconoSaldoPendiente.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+      <VBox fillWidth="false" layoutX="190.0" layoutY="310.0" prefHeight="327.0" prefWidth="819.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label styleClass="labels-totales" text="Valor a Abonar:">
+               <VBox.margin>
+                  <Insets bottom="-20.0" left="40.0" top="25.0" />
+               </VBox.margin>
+            </Label>
+            <TextField alignment="TOP_LEFT" prefHeight="35.0" prefWidth="305.0" promptText="Ingrese El Valor:" styleClass="input" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets left="35.0" top="30.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="botones" text="Abonar a la cuenta">
+               <VBox.margin>
+                  <Insets left="35.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" styleClass="boton-limpiar" text="Limpiar">
+               <VBox.margin>
+                  <Insets left="210.0" top="-29.0" />
+               </VBox.margin>
+            </Button>
+            <Label styleClass="labels-totales" text="Agregar Comentario (Opcional):">
+               <VBox.margin>
+                  <Insets bottom="-20.0" left="40.0" top="25.0" />
+               </VBox.margin>
+            </Label>
+            <TextArea maxWidth="1.7976931348623157E308" prefHeight="114.0" prefWidth="329.0" promptText="Escriba su comentario..." styleClass="input" wrapText="true" VBox.vgrow="NEVER">
+               <VBox.margin>
+                  <Insets left="35.0" top="30.0" />
+               </VBox.margin>
+            </TextArea>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
