@@ -1,4 +1,4 @@
-package com.example.deudapp;
+package app;
 
 import javafx.application.Application;
 

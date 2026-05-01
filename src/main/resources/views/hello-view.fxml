@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<HBox fx:id="HbCont" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deudapp.HelloController">
+<HBox fx:id="HbCont" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HelloController">
    <children>
       <VBox fx:id="menuLateral" prefHeight="678.0" prefWidth="157.0" style="-fx-background-color: #97a97c; -fx-background-color: cccccc;">
          <children>
@@ -24,7 +24,7 @@
                <children>
                   <ImageView fitHeight="154.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <image>
-                        <Image url="@../../../Multimedia/Logo.png" />
+                        <Image url="@../Multimedia/Logo.png" />
                      </image>
                      <viewport>
                         <Rectangle2D />
@@ -39,7 +39,7 @@
                <graphic>
                   <ImageView fitHeight="35.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/IconoMenuInicial.png" />
+                        <Image url="@../Multimedia/IconoMenuInicial.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -57,7 +57,7 @@
                <graphic>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/IconoPersonas.png" />
+                        <Image url="@../Multimedia/IconoPersonas.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -69,7 +69,7 @@
                <graphic>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/IconoAgregar.png" />
+                        <Image url="@../Multimedia/IconoAgregar.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -87,7 +87,7 @@
                <graphic>
                   <ImageView fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/IconoAbonar.png" />
+                        <Image url="@../Multimedia/IconoAbonar.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -102,7 +102,7 @@
                <graphic>
                   <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/IconoReportes.png" />
+                        <Image url="@../Multimedia/IconoReportes.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -118,7 +118,7 @@
                <graphic>
                   <ImageView fx:id="ImgAjustes" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/IconoAjustes.png" />
+                        <Image url="@../Multimedia/IconoAjustes.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -133,7 +133,7 @@
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/salir.png" />
+                        <Image url="@../Multimedia/salir.png" />
                      </image>
                   </ImageView>
                </graphic>

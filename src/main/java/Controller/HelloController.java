@@ -1,14 +1,12 @@
-package com.example.deudapp;
+package Controller;
 
 import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.SplitPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
-import javafx.animation.FadeTransition;
 import javafx.util.Duration;
 import javafx.application.Platform;
 import java.io.IOException;
@@ -59,37 +57,37 @@ public class HelloController {
 
     @FXML
     private void goInicio() {
-        loadView("/com/example/deudapp/bienvenida-view.fxml");
+        loadView("/views/bienvenida-view.fxml");
         setActive(BtnInicio);
     }
 
     @FXML
     private void goPersonas() {
-        loadView("/com/example/deudapp/personas-view.fxml");
+        loadView("/views/personas-view.fxml");
         setActive(BtnPersonas);
     }
 
     @FXML
     private void goAbonar() {
-        loadView("/com/example/deudapp/abonar-view.fxml");
+        loadView("/views/abonar-view.fxml");
         setActive(BtnAbonar);
     }
 
     @FXML
     private void goReportes() {
-        loadView("/com/example/deudapp/reportes-view.fxml");
+        loadView("/views/reportes-view.fxml");
         setActive(BtnReportes);
     }
 
     @FXML
     private void goRegistrar() {
-        loadView("/com/example/deudapp/registrar-view.fxml");
+        loadView("/views/registrar-view.fxml");
         setActive(BtnRegistrar);
     }
 
     @FXML
     private void goAjustes() {
-        loadView("/com/example/deudapp/ajustes-view.fxml");
+        loadView("/views/ajustes-view.fxml");
         setActive(BtnAjustes);
     }
 
@@ -130,7 +128,7 @@ public class HelloController {
 
     @FXML
     public void initialize() {
-        loadView("/com/example/deudapp/bienvenida-view.fxml");
+        loadView("/views/bienvenida-view.fxml");
         setActive(BtnInicio);
 
         // Animacion de entrada de menu

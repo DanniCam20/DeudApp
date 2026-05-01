@@ -24,7 +24,7 @@
          <children>
             <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../Multimedia/IconoPersonas.png" />
+                  <Image url="@../Multimedia/IconoPersonas.png" />
                </image>
             </ImageView>
             <Text fill="#475569" strokeType="OUTSIDE" strokeWidth="0.0" text="Personas" wrappingWidth="163.7367706298828">
@@ -44,7 +44,7 @@
          <children>
             <ImageView fitHeight="26.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../Multimedia/Buscar.png" />
+                  <Image url="@../Multimedia/Buscar.png" />
                </image>
                <HBox.margin>
                   <Insets left="15.0" right="10.0" />

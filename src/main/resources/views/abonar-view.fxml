@@ -22,7 +22,7 @@
          <children>
             <ImageView fitHeight="60.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../Multimedia/IconoAbonar.png" />
+                  <Image url="@../Multimedia/IconoAbonar.png" />
                </image>
             </ImageView>
             <Text fill="#475569" strokeType="OUTSIDE" strokeWidth="0.0" text="Abonar Dinero" wrappingWidth="266.936767578125">
@@ -71,7 +71,7 @@
                   </Text>
                   <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_LEFT">
                      <image>
-                        <Image url="@../../../Multimedia/IconoDeudaTOTAL.png" />
+                        <Image url="@../Multimedia/IconoDeudaTOTAL.png" />
                      </image>
                   </ImageView>
                </children>
@@ -90,7 +90,7 @@
                   </Text>
                   <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/IconoPagado.png" />
+                        <Image url="@../Multimedia/IconoPagado.png" />
                      </image>
                   </ImageView>
                </children>
@@ -112,7 +112,7 @@
                   </Text>
                   <ImageView fitHeight="31.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../Multimedia/IconoSaldoPendiente.png" />
+                        <Image url="@../Multimedia/IconoSaldoPendiente.png" />
                      </image>
                   </ImageView>
                </children>

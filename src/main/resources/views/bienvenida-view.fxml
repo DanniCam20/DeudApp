@@ -49,7 +49,7 @@
             <!-- IMAGEN -->
             <ImageView fitHeight="250" preserveRatio="true">
                <image>
-                  <Image url="@../../../Multimedia/IconoInicio.png"/>
+                  <Image url="@../Multimedia/IconoInicio.png"/>
                </image>
             </ImageView>
 
