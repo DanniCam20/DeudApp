@@ -18,11 +18,11 @@ public class HelloApplication extends Application {
         stage.setMinWidth(1100);
         stage.setMinHeight(750);
         scene.getStylesheets().add(
-                Objects.requireNonNull(getClass().getResource("/Estilos/Style.css")).toExternalForm()
+                Objects.requireNonNull(getClass().getResource("/estilos/style.css")).toExternalForm()
         );
         stage.setScene(scene);
         stage.getIcons().add(
-                new Image(getClass().getResourceAsStream("/Multimedia/Logo.png"))
+                new Image(getClass().getResourceAsStream("/multimedia/Logo.png"))
         );
         stage.show();
     }

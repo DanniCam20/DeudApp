@@ -1,4 +1,4 @@
-package Controller;
+package controller;
 
 import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
@@ -97,7 +97,7 @@ public class HelloController {
     }
 
 
-    //  🔹Metodos de activacion de botones de menu
+    //  Metodos de activacion de botones de menu
 
     private void setActive(Button selected) {
         // quitar active a todos

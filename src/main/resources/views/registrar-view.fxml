@@ -24,7 +24,7 @@
          <children>
             <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Multimedia/IconoAgregar.png" />
+                  <Image url="@../multimedia/IconoAgregar.png" />
                </image>
             </ImageView>
             <Text fill="#475569" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrar" wrappingWidth="163.7367706298828">
@@ -88,7 +88,7 @@
                         </Label>
                         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
                            <image>
-                              <Image url="@../Multimedia/IconoNombreApellido.png" />
+                              <Image url="@../multimedia/IconoNombreApellido.png" />
                            </image>
                            <GridPane.margin>
                               <Insets bottom="40.0" left="10.0" />
@@ -96,7 +96,7 @@
                         </ImageView>
                         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <image>
-                              <Image url="@../Multimedia/IconoNombreApellido.png" />
+                              <Image url="@../multimedia/IconoNombreApellido.png" />
                            </image>
                            <GridPane.margin>
                               <Insets bottom="40.0" left="40.0" />
@@ -144,7 +144,7 @@
                         </Label>
                         <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
                            <image>
-                              <Image url="@../Multimedia/IconoNumeroTelefono.png" />
+                              <Image url="@../multimedia/IconoNumeroTelefono.png" />
                            </image>
                            <GridPane.margin>
                               <Insets bottom="40.0" left="36.0" />
@@ -152,7 +152,7 @@
                         </ImageView>
                         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Multimedia/IconoNumeroCedula.png" />
+                              <Image url="@../multimedia/IconoNumeroCedula.png" />
                            </image>
                            <GridPane.margin>
                               <Insets bottom="40.0" left="10.0" />
@@ -194,7 +194,7 @@
                         </Label>
                         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Multimedia/IconoCorreo.png" />
+                              <Image url="@../multimedia/IconoCorreo.png" />
                            </image>
                            <GridPane.margin>
                               <Insets left="10.0" top="60.0" />
@@ -202,7 +202,7 @@
                         </ImageView>
                         <ImageView fitHeight="29.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
                            <image>
-                              <Image url="@../Multimedia/IconoValorDeuda.png" />
+                              <Image url="@../multimedia/IconoValorDeuda.png" />
                            </image>
                            <GridPane.margin>
                               <Insets left="40.0" top="-150.0" />
@@ -220,7 +220,7 @@
                         </Label>
                         <ImageView fitHeight="26.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Multimedia/IconoCorreo.png" />
+                              <Image url="@../multimedia/IconoCorreo.png" />
                            </image>
                            <GridPane.margin>
                               <Insets left="10.0" top="-140.0" />

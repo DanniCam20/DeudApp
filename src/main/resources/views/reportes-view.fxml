@@ -29,7 +29,7 @@
          <children>
             <ImageView fitHeight="67.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Multimedia/IconoReportes.png" />
+                  <Image url="@../multimedia/IconoReportes.png" />
                </image>
             </ImageView>
 
